@@ -1,0 +1,15 @@
+# Pastas de output/build
+output/
+build/
+
+# Binários e objetos
+*.o
+*.out
+*.exe
+*.obj
+
+# Arquivos do VSCode (opcional, alguns preferem versionar)
+.vscode/
+
+# Arquivos de sistema
+.DS_Store
