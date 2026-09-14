@@ -236,11 +236,11 @@ void malloc_ex(){
     //atribui o endereço para o ponteiro
     pmalloc = (float*) malloc(sizeof(float));
 
-    //armazena um novo conteúdo no endereço
-    *pmalloc = 3.1415;
-
     //verifica se deu erro ao reservar o endereço
     if (pmalloc == NULL) return;
+
+    //armazena um novo conteúdo no endereço
+    *pmalloc = 3.1415;
 
     printf("Endereco de pmalloc = %i\n", pmalloc);
     printf("Conteudo de pmalloc = %.4f\n", *pmalloc);
